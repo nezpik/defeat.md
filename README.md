@@ -1,7 +1,5 @@
 # defeat.md
 
-[![skills.sh](https://skills.sh/b/nezpik/defeat.md)](https://skills.sh/nezpik/defeat.md)
-
 `defeat.md` is an MIT-licensed Agent Skill and reference document for helping AI agents recognize defeat as both a human feeling and a real-world situation.
 
 It is designed for agents working with people, teams, projects, and enterprises where defeat may be present but denied, minimized, mislabeled, or converted into pressure to continue.
@@ -25,6 +23,22 @@ defeat/SKILL.md
 ```
 
 This follows the Agent Skills convention where a skill is a folder containing a `SKILL.md` file with YAML frontmatter.
+
+## Install with Vercel skills CLI
+
+This repository is discoverable by the open `skills` CLI used by `skills.sh`.
+
+List available skills:
+
+```bash
+npx skills add nezpik/defeat.md --list
+```
+
+Install the `defeat` skill:
+
+```bash
+npx skills add nezpik/defeat.md --skill defeat
+```
 
 ## Validation
 
