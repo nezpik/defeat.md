@@ -32,6 +32,8 @@ If you use Agent Skills tooling, validate with one of the supported validators, 
 npx skills-ref validate ./defeat
 ```
 
+This skill has been validated with `npx skills-ref validate ./defeat`.
+
 or initialize/publish with an Agent Skills-compatible CLI such as `mdskills` if that is your chosen distribution path.
 
 ## When agents should use this
