@@ -1,5 +1,7 @@
 # defeat.md
 
+[![skills.sh](https://skills.sh/b/nezpik/defeat.md)](https://skills.sh/nezpik/defeat.md)
+
 `defeat.md` is an MIT-licensed Agent Skill and reference document for helping AI agents recognize defeat as both a human feeling and a real-world situation.
 
 It is designed for agents working with people, teams, projects, and enterprises where defeat may be present but denied, minimized, mislabeled, or converted into pressure to continue.
