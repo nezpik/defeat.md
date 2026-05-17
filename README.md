@@ -40,17 +40,19 @@ Install the `defeat` skill:
 npx skills add nezpik/defeat.md --skill defeat
 ```
 
-## Validation
+## Install with agentskill.sh
 
-If you use Agent Skills tooling, validate with one of the supported validators, for example:
+Set up the agentskill.sh CLI:
 
 ```bash
-npx skills-ref validate ./defeat
+npx @agentskill.sh/cli@latest setup
 ```
 
-This skill has been validated with `npx skills-ref validate ./defeat`.
+Then learn this skill:
 
-or initialize/publish with an Agent Skills-compatible CLI such as `mdskills` if that is your chosen distribution path.
+```text
+/learn @nezpik/defeat
+```
 
 ## When agents should use this
 
